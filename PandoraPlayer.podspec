@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
 
   s.source_files = "Player", "Player/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
+  
+  s.static_framework = true
 
   s.resources = "Player/**/*.{storyboard,xib,xcassets}"
 
